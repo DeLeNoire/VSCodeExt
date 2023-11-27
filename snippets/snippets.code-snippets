@@ -1,0 +1,65 @@
+{
+    "Basic Image Structure":
+    {
+        "prefix": "_image",
+        "body": 
+        [
+            "<img src="image.jpg" alt="Description of the image">"
+        ],
+        "description": "Html Image Tag"
+    },
+
+    "Link (Anchor) Tag":
+    {
+        "prefix":"_Link",
+        "body":
+        [
+            " <a href=""> </a> "
+        ],
+        "description": "Html Link Tag"
+    },
+
+    "Unordered List":
+    {
+        "prefix":"_List_Unordered",
+        "body":
+        [
+            "<ul> ",
+            "<li>Item 1</li>",
+            "<li>Item 2</li>",
+            "<li>Item 3</li>",
+            "</ul>"
+        ],
+        "description": "Html Unordered List"
+    },
+
+    "Ordered List":
+    {
+        "prefix":"_List_Ordered",
+        "body":
+        [
+            "<ol> ",
+            "<li>Item 1</li>",
+            "<li>Item 2</li>",
+            "<li>Item 3</li>",
+            "</ol>"
+        ],
+        "description": "Html Ordered List"
+    },
+
+    "Form with Input Field":
+    {
+        "prefix":"_Form_InputFeild",
+        "body":
+        [
+            "<form action="/submit" method="post">",
+            "<label for="username">Username:</label>",
+            "<input type="text" id="username" name="username">",
+            "<input type="submit" value="Submit">",
+            "</form>"
+        
+        ],
+        "description": "Html Form"
+    },
+
+}
